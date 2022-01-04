@@ -265,4 +265,7 @@ $(call inherit-product, vendor/cherish/config/ota.mk)
 # RRO Overlays
 $(call inherit-product, vendor/cherish/config/rro_overlays.mk)
 
+# Themes
+$(call inherit-product, vendor/themes/themes.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
